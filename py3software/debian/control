@@ -1,0 +1,15 @@
+Source: py3software
+Section: contrib/python
+Priority: extra
+Maintainer: Matt Maintainer <matt@example.com>
+Build-Depends: debhelper (>= 9), python3, dh-virtualenv (>= 1.0),
+    python3-setuptools, python3-pip, python3-dev, libffi-dev,
+    cmake
+Standards-Version: 3.9.5
+
+Package: py3software
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1), python3 (>= 3.6), ${misc:Pre-Depends}
+Depends: ${python:Depends}, ${misc:Depends}
+Description: really neat package!
+ second line can contain extra information about it.

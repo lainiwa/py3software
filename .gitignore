@@ -1,0 +1,20 @@
+.ipynb_checkpoints/
+.mypy_cache/
+__pycache__/
+docs/build/
+venv/
+*.pkl
+*.model
+tmp.jpg
+# Compiled python modules.
+*.pyc
+# Setuptools distribution folder.
+/dist/
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+# Debian distribution files
+debian/.debhelper
+debian/py3software
+
+/py3software_*
+/py3software*deb
